@@ -10,5 +10,6 @@ setup(
     packages=['torroute'],
     keywords=['tornado', 'routes', 'flask-like', 'route decorator'],
     zip_safe=False,
+    include_package_data=True,
     platforms='any'
 )
