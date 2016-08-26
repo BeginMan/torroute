@@ -12,7 +12,7 @@ Tornado Route.
 import tornado.ioloop
 import tornado.web
 
-from toroute import route
+from torroute import route
 
 @route('/')
 class MainHandler(tornado.web.RequestHandler):
