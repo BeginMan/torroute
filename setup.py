@@ -5,11 +5,9 @@ setup(
     description='Delicate Tornado Route Decorator.',
     author='beginman',
     author_email='xinxinyu2011@163.com',
-    url='https://github.com/BeginMan/ptcache',
-    license='BSD',
+    url='https://github.com/BeginMan/torroute',
+    license='MIT',
     packages=['torroute'],
     keywords=['tornado', 'routes', 'flask-like', 'route decorator'],
-    zip_safe=False,
-    include_package_data=True,
     platforms='any'
 )
