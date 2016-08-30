@@ -3,6 +3,11 @@ tornado route decoration
     :copyright: (c) 2016 by fangpeng(@beginman.cn).
     :license: MIT, see LICENSE for more details.
 """
+import sys
+
+if sys.version_info[0] == 3:
+    from functools import reduce
+
 from tornado.web import url
 
 
@@ -58,5 +63,3 @@ class Route(object):
         raise KeyError("%s not found in named urls" % url)
 
 route = Route
-
-
